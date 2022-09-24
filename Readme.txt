@@ -1,10 +1,16 @@
-Repositorio de la aplicación FileMonitor de detección ransomware en Android. Aquí encontrarás el proyecto de Android Studio, la apk y dos virus para probar.
+Repositorio del proyecto FileMonitor.
+
+El objetivo de este trabajo es la creación de un antivirus para la detección de ransomware de cifrado utilizando archivos trampa en el sistema Android. 
+
+Su funcionamiento se basa en un despliegue de archivos trampa (un fichero pdf de ejemplo) por todo el almacenamiento externo y la monitorización de los mismos. Cuándo un ataque ransomware ataque el almacenamiento externo del dispositivo, la aplicación (gracias a la implementación de patrones de detección ransomware) notificará al usuario y le pedirá que desinstale con la mayor urgencia posible las aplicaciones 
+
+Aquí encontrarás el proyecto de Android Studio, la apk y dos virus para probar.
 
 Pasos para un uso correcto de la aplicación:
 
 1. Instalar y ejecutar la apk de Filemonitor concediendo el permisos para gestionar el almacenamiento externo.
 
-2. Darle al botón desplegar trampa para que cree los archivos trampa en el almacenamiento externo.
+2. Darle al botón "Desplegar Trampa" para que cree los honeyfiles en el almacenamiento externo.
 
 3. Darle al botón de play para iniciar la monitorización.
 
